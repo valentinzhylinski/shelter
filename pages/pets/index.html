@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="../../assets/icons/favicon.png"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cozy House | Our Pets</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container container">
+        <div class="header-container-logo-title">
+          <a href="../main/index.html" class="header-container-logo-link">
+            <h1>Cozy House</h1>
+            <p class="header-container-logo-subtitle">
+              Shelter for pets in Boston
+            </p>
+          </a>
+        </div>
+        <nav class="header-container-nav">
+          <div class="burger-menu-shadow-box"></div>
+          <div class="header-container-nav-list-container">
+            <div class="header-container-logo-title burger-menu-title">
+              <h1 class="burger-menu-h1">Cozy House</h1>
+              <p class="header-container-logo-subtitle burger-menu-subtitle">
+                Shelter for pets in Boston
+              </p>
+            </div>
+            <ul class="header-container-nav-list">
+              <li class="header-container-nav-item">
+                <a
+                  href="../main/index.html"
+                  class="header-container-nav-link paragraph-l"
+                >
+                  About the shelter
+                </a>
+              </li>
+              <li class="header-container-nav-item" id="active_nav_item">
+                <a
+                  class="header-container-nav-link paragraph-l"
+                  id="active_link"
+                  >Our pets</a
+                >
+              </li>
+              <li class="header-container-nav-item">
+                <a
+                  href="../main/index.html#Help"
+                  class="header-container-nav-link paragraph-l"
+                  >Help the shelter</a
+                >
+              </li>
+              <li class="header-container-nav-item">
+                <a
+                  href="#Contacts"
+                  class="header-container-nav-link paragraph-l"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="header-container-burger-menu">
+            <span class="header-container-burger-menu-line"></span>
+            <span class="header-container-burger-menu-line"></span>
+            <span class="header-container-burger-menu-line"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="modal-window">
+        <div class="modal-window-container">
+          <button class="modal-button main-page-round-button-normal">
+            <img
+              class="modal-button-img"
+              src="../..//assets/icons/button controls/cross.svg"
+              alt="cross"
+            />
+          </button>
+          <div class="modal-card">
+            <img class="modal-img" />
+            <div class="modal-content">
+              <h3 class="modal-title"></h3>
+              <h4 class="modal-subtitle"></h4>
+              <h5 class="modal-text"></h5>
+              <ul class="modal-list">
+                <li class="modal-list-item">
+                  Age: <span class="modal-item-info age"></span>
+                </li>
+                <li class="modal-list-item">
+                  Inoculations:
+                  <span class="modal-item-info inoculations"></span>
+                </li>
+                <li class="modal-list-item">
+                  Diseases: <span class="modal-item-info diseases"></span>
+                </li>
+                <li class="modal-list-item">
+                  Parasites: <span class="modal-item-info parasites"></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-container-our-friends-wrapper">
+        <section class="main-container-our-friends container" id="Our_friends">
+          <h3 class="main-container-our-friends-title">
+            Our friends who <br />
+            are looking for a house
+          </h3>
+          <div class="main-container-our-friends-slider-cards"></div>
+          <div class="main-container-our-friends-buttons">
+            <button
+              class="main-container-our-friends-slider-arrow-button main-page-round-button-inactive"
+              id="strongLeft"
+            >
+              <!-- <img
+                src="../../assets/icons/button controls/strong left.svg"
+                alt="strong left"
+              /> -->
+              <p class="main-container-our-friends-pagination-arrow"><<</p>
+            </button>
+
+            <button
+              class="main-container-our-friends-slider-arrow-button main-page-round-button-inactive"
+              id="lightLeft"
+            >
+              <!-- <img
+                src="../../assets/icons/button controls/light left.svg"
+                alt="light left"
+              /> -->
+              <p class="main-container-our-friends-pagination-arrow"><</p>
+            </button>
+            <button
+              class="main-container-our-friends-slider-arrow-button main-page-round-button-active"
+            >
+              <!-- <img
+                class="main-container-our-friends-pagination-number-button"
+                src="../../assets/icons/button controls/1.svg"
+                alt="1"
+              /> -->
+              <p class="main-container-our-friends-pagination-number-button">
+                1
+              </p>
+            </button>
+            <button
+              class="main-container-our-friends-slider-arrow-button main-page-round-button-normal"
+              id="lightRight"
+            >
+              <!-- <img
+                src="../../assets/icons/button controls/light right.svg"
+                alt="light right"
+              /> -->
+              <p class="main-container-our-friends-pagination-arrow">></p>
+            </button>
+            <button
+              class="main-container-our-friends-slider-arrow-button main-page-round-button-normal"
+              id="strongRight"
+            >
+              <!-- <img
+                src="../../assets/icons/button controls/strong right.svg"
+                alt="strong right"
+              /> -->
+              <p class="main-container-our-friends-pagination-arrow">>></p>
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container container" id="Contacts">
+        <div class="footer-container-content-wrapper">
+          <div class="footer-container-contacts footer-container-card">
+            <h3 class="footer-container-contacts-title">
+              For questions<br class="br" />
+              and suggestions
+            </h3>
+            <div
+              class="footer-container-contacts-email footer-container-contact-item"
+            >
+              <a
+                href="https://www.google.com/gmail/"
+                target="_blank"
+                class="footer-container-contacts-link"
+              >
+                <img src="../../assets/icons/icon-email.svg" alt="E-mail" />
+              </a>
+              <a
+                href="https://www.google.com/gmail/"
+                target="_blank"
+                class="footer-container-contacts-link"
+              >
+                <h4
+                  class="footer-container-contacts-email-address footer-container-contact-text"
+                >
+                  email@shelter.com
+                </h4>
+              </a>
+            </div>
+            <div
+              class="footer-container-contacts-telephone footer-container-contact-item"
+            >
+              <a
+                href="tel:+13 674 567 75 54"
+                class="footer-container-contacts-link"
+              >
+                <img src="../../assets/icons/icon-phone.svg" alt="Phone" />
+              </a>
+              <a
+                href="tel:+13 674 567 75 54"
+                class="footer-container-contacts-link"
+              >
+                <h4
+                  class="footer-container-contacts-telephone-number footer-container-contact-text"
+                >
+                  +13 674 567 75 54
+                </h4>
+              </a>
+            </div>
+          </div>
+          <div class="footer-container-address footer-container-card">
+            <h3 class="footer-container-contacts-title">
+              We are waiting<br class="br" />
+              for your visit
+            </h3>
+            <div
+              class="footer-container-contacts-address footer-container-contact-item"
+            >
+              <a
+                href="https://goo.gl/maps/cqY1mZJSgL9bFgC19"
+                target="_blank"
+                class="footer-container-contacts-link"
+              >
+                <img src="../../assets/icons/icon-marker.svg" alt="Marker" />
+              </a>
+              <a
+                href="https://goo.gl/maps/cqY1mZJSgL9bFgC19"
+                target="_blank"
+                class="footer-container-contacts-link"
+              >
+                <h4
+                  class="footer-container-contacts-address-location footer-container-contact-text"
+                >
+                  1 Central Street, Boston<br />
+                  (entrance from the store)
+                </h4>
+              </a>
+            </div>
+            <div
+              class="footer-container-contacts-address footer-container-contact-item"
+            >
+              <a
+                href="https://goo.gl/maps/bFamCib1AZfXAtUN8"
+                target="_blank"
+                class="footer-container-contacts-link"
+              >
+                <img src="../../assets/icons/icon-marker.svg" alt="Marker" />
+              </a>
+              <a
+                href="https://goo.gl/maps/bFamCib1AZfXAtUN8"
+                target="_blank"
+                class="footer-container-contacts-link"
+              >
+                <h4
+                  class="footer-container-contacts-address-location footer-container-contact-text"
+                >
+                  18 South Park, London
+                </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-container-image">
+          <img
+            class="footer-container-image"
+            src="../../assets/images/footer-puppy.png"
+            alt="Puppy"
+          />
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
